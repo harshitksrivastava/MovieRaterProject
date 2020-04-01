@@ -1,6 +1,16 @@
 # Created by https://www.gitignore.io/api/python,vagrant
 # Edit at https://www.gitignore.io/?templates=python,vagrant
 
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
